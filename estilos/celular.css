@@ -1,0 +1,24 @@
+@media screen and (max-width: 819px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    
+    .login {
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 20px;
+        width: 270px;
+        height: 350px;
+    }
+
+    .image {
+        width: 270px;
+        height: 240px;
+    }
+
+    .image img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+}

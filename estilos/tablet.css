@@ -1,0 +1,43 @@
+@media screen and (max-width: 960px){
+    .container {
+        flex-direction: row-reverse;
+    }
+
+    .login {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        width: 500px;
+        height: 290px;
+    }
+
+    .image {
+        width: 290px;
+        height: 290px;
+    }
+
+    .image img {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+        padding: 0px 0px;
+    }
+
+    .camp {
+        height: 40px;
+    }
+
+    input {
+        width: 100%;
+    }
+}
